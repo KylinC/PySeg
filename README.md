@@ -34,7 +34,7 @@ pyseg.load_corpus("trainCorpus.txt_utf8")
 # 应用HMM模型进行预处理分词，之后使用LSTM进行词性标注
 res5,res5_tag = pyseg.cut_mark('江泽民主席来到北京负责燃料工业部的指导建设工作。')
 for tag in res5_tag:
-  print(tag)
+    print(tag)
   
 ```
 
